@@ -1,8 +1,11 @@
-name: Release
+name: Create Release Pull Request or Release
 on:
-  workflow_dispatch:
+  push:
     branches:
       - trunk
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -34,8 +37,8 @@ jobs:
         run: pnpm install --ignore-scripts
 
       - name: Create Release Pull Request or Publish to npm
-        uses: changesets/action@v1
+        uses: changesets/action@v1.3.0
         with:
-          publish: pnpm release
+          publish: pnpm changeset tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
