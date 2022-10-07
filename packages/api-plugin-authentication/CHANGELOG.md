@@ -1,5 +1,12 @@
 # @reactioncommerce/api-plugin-authentication
 
+## 2.2.6
+
+### Patch Changes
+
+- Updated dependencies [[`f1123efd6`](https://github.com/tedraykov/reaction/commit/f1123efd651e436fa926e9b34bb49f26b91019da)]:
+  - @reactioncommerce/api-core@3.0.0
+
 ## 2.2.5
 
 ### Patch Changes
