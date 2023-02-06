@@ -1,5 +1,51 @@
 # reaction
 
+## 4.2.8-next.0
+
+### Patch Changes
+
+- Updated dependencies [[`315bb97ab`](https://github.com/reactioncommerce/reaction/commit/315bb97abc3e70dcb1a89da8adca5468302b24be), [`cdd266bee`](https://github.com/reactioncommerce/reaction/commit/cdd266beecd47abb49bc61cda2144f9f5b126c26), [`9d26f0528`](https://github.com/reactioncommerce/reaction/commit/9d26f05286a43d99f4b8a2924b5a0644a5a03ccc)]:
+  - @reactioncommerce/api-core@2.1.0-next.0
+  - @reactioncommerce/api-plugin-accounts@2.1.0-next.0
+  - @reactioncommerce/api-plugin-orders@1.5.0-next.0
+  - @reactioncommerce/api-plugin-products@1.4.0-next.0
+  - @reactioncommerce/api-utils@1.18.0-next.0
+  - @reactioncommerce/file-collections-sa-gridfs@0.2.0-next.0
+  - @reactioncommerce/api-plugin-authentication@2.2.6-next.0
+  - @reactioncommerce/api-plugin-taxes@1.1.4-next.0
+  - @reactioncommerce/api-plugin-address-validation@1.3.4-next.0
+  - @reactioncommerce/api-plugin-address-validation-test@1.0.4-next.0
+  - @reactioncommerce/api-plugin-authorization-simple@1.3.3-next.0
+  - @reactioncommerce/api-plugin-carts@1.3.6-next.0
+  - @reactioncommerce/api-plugin-catalogs@1.1.3-next.0
+  - @reactioncommerce/api-plugin-discounts@1.0.5-next.0
+  - @reactioncommerce/api-plugin-discounts-codes@1.2.5-next.0
+  - @reactioncommerce/api-plugin-email@1.1.6-next.0
+  - @reactioncommerce/api-plugin-email-smtp@1.0.9-next.0
+  - @reactioncommerce/api-plugin-email-templates@1.1.8-next.0
+  - @reactioncommerce/api-plugin-files@1.1.1-next.0
+  - @reactioncommerce/api-plugin-i18n@1.0.7-next.0
+  - @reactioncommerce/api-plugin-inventory@1.0.6-next.0
+  - @reactioncommerce/api-plugin-inventory-simple@1.0.7-next.0
+  - @reactioncommerce/api-plugin-job-queue@1.0.8-next.0
+  - @reactioncommerce/api-plugin-navigation@1.1.3-next.0
+  - @reactioncommerce/api-plugin-notifications@1.1.5-next.0
+  - @reactioncommerce/api-plugin-payments@1.0.6-next.0
+  - @reactioncommerce/api-plugin-payments-example@1.1.3-next.0
+  - @reactioncommerce/api-plugin-payments-stripe-sca@1.0.3-next.0
+  - @reactioncommerce/api-plugin-pricing-simple@1.0.8-next.0
+  - @reactioncommerce/api-plugin-settings@1.0.8-next.0
+  - @reactioncommerce/api-plugin-shipments@1.0.4-next.0
+  - @reactioncommerce/api-plugin-shipments-flat-rate@1.0.11-next.0
+  - @reactioncommerce/api-plugin-shops@1.3.1-next.0
+  - @reactioncommerce/api-plugin-simple-schema@1.0.4-next.0
+  - @reactioncommerce/api-plugin-sitemap-generator@1.2.4-next.0
+  - @reactioncommerce/api-plugin-surcharges@1.1.9-next.0
+  - @reactioncommerce/api-plugin-system-information@1.1.5-next.0
+  - @reactioncommerce/api-plugin-tags@1.2.2-next.0
+  - @reactioncommerce/api-plugin-taxes-flat-rate@1.0.9-next.0
+  - @reactioncommerce/api-plugin-translations@1.2.3-next.0
+
 ## 4.2.7
 
 ### Patch Changes
